@@ -1,8 +1,8 @@
 $(function() {
 
-	$(window).on('load', function(){
-		$('.preloader').delay(200).fadeOut('slow');
-	});
+	// $(window).on('load', function(){
+	// 	$('.preloader').delay(200).fadeOut('slow');
+	// });
 
 	$('.carousel-services').on('initialized.owl.carousel', function() {
 		setTimeout(function() {
